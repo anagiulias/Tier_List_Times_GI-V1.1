@@ -5,9 +5,10 @@ interface PersonagemProps {
     imagem: string
     classe: string
     corDoCard: string
+    data: string
 }
 
-const Personagem = ({ nome, imagem, classe, corDoCard }: PersonagemProps) => {
+const Personagem = ({ nome, imagem, classe, corDoCard, data }: PersonagemProps) => {
     return (<div className='personagem'>
         <div className='cabecalho' style={{ backgroundColor: corDoCard }}>
             <img src={imagem} alt={nome}/>
@@ -15,6 +16,7 @@ const Personagem = ({ nome, imagem, classe, corDoCard }: PersonagemProps) => {
         <div className='rodape'>
             <h4>{nome}</h4>
             <h5>{classe}</h5>
+            <h5>{new Date(data).toLocaleDateString()}</h5>
         </div>
     </div>)
 }

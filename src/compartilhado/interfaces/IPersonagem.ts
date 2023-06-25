@@ -3,4 +3,5 @@ export interface IPersonagem {
     classe: string
     imagem: string
     time?: string
+    data: string
 }

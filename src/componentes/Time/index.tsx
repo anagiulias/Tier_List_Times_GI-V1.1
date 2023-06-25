@@ -16,7 +16,7 @@ const Time = (props: TimeProps) => {
         (props.personagens.length > 0) ? <section className='time' style={estilo}>
             <h3 style={{ borderColor: props.corDoCard }}>{props.nome}</h3>
             <div className='personagens'>
-                {props.personagens.map( personagem => <Personagem corDoCard={props.corDoCard} key={personagem.nome} nome={personagem.nome} classe={personagem.classe} imagem={personagem.imagem} /> )}
+                {props.personagens.map( personagem => <Personagem corDoCard={props.corDoCard} key={personagem.nome} nome={personagem.nome} classe={personagem.classe} imagem={personagem.imagem} data={personagem.data} /> )}
             </div>
         </section>
         : <></>
