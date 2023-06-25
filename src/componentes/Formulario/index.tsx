@@ -12,7 +12,7 @@ interface FormularioProps {
 
 const Formulario = (props: FormularioProps) => {
 
-    const [nome, setNome] = useState('') 
+    const [nome, setNome] = useState('')
     const [classe, setClasse] = useState('')
     const [imagem, setImagem] = useState('')
     const [time, setTime] = useState('')

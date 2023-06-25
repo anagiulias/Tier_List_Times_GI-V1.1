@@ -2,51 +2,52 @@ import { useState } from 'react';
 import Banner from './componentes/Banner';
 import Formulario from './componentes/Formulario';
 import Time from './componentes/Time';
-import Rodape from './componentes/Rodape';
+// import Rodape from './componentes/Rodape';
+import { IPersonagem } from './compartilhado/interfaces/IPersonagem';
 
 function App() {
 
   const times = [
     {
-      nome: 'Fogo',
+      nome: 'Pyro',
       corPrimaria: '#FDE7E8',
       corSecundaria: '#E06B69'
     },
     {
-      nome: 'Água',
-      corPrimaria: '#E8F8FF',
-      corSecundaria: '#82CFFA'
-    },
-    {
-      nome: 'Gelo',
+      nome: 'Cryo',
       corPrimaria: '#DEEFE7',
       corSecundaria: '#E8F8FF'
     },
     {
-      nome: 'Vento',
+      nome: 'Anemo',
       corPrimaria: '#E4F2E7',
       corSecundaria: '#C6E7D4'
     },
     {
-      nome: 'Terra',
+      nome: 'Geo',
       corPrimaria: '#FFF5D9',
       corSecundaria: '#FFBA05'
     },
     {
-      nome: 'Planta',
+      nome: 'Hydro',
+      corPrimaria: '#E8F8FF',
+      corSecundaria: '#82CFFA'
+    },
+    {
+      nome: 'Dendro',
       corPrimaria: '#D9F7E9',
       corSecundaria: '#57C278'
     },
     {
-      nome: 'Eletricidade',
+      nome: 'Electro',
       corPrimaria: '#CED7F2',
       corSecundaria: '#7E82D9'
     },
   ]
 
-  const [personagens, setPersonagens] = useState([])
+  const [personagens, setPersonagens] = useState<IPersonagem[]>([])
 
-  const aoNovoPersonagemAdicionado = (personagem) => {
+  const aoNovoPersonagemAdicionado = (personagem: IPersonagem) => {
     setPersonagens([...personagens, personagem])
   }
 
@@ -62,7 +63,6 @@ function App() {
         corDoCard={time.corSecundaria}
         personagens={personagens.filter(personagem => personagem.time === time.nome)}
       />)}
-      <Rodape />
     </div>
   );
 }
