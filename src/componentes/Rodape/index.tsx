@@ -15,7 +15,7 @@ const Rodape = () => {
                 </a>
             </li>
             <li className='redes__sociais'>
-                <a href="google.com" targent="_blank">
+                <a href="google.com" target="_blank">
                     <img src="/imagens/ig.png" alt="" />
                 </a>
             </li>

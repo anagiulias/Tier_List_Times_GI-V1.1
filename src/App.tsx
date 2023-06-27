@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Banner from './componentes/Banner';
 import Formulario from './componentes/Formulario';
 import Time from './componentes/Time';
-// import Rodape from './componentes/Rodape';
+import Rodape from './componentes/Rodape';
 import { IPersonagem } from './compartilhado/interfaces/IPersonagem';
 
 function App() {
@@ -63,6 +63,7 @@ function App() {
         corDoCard={time.corSecundaria}
         personagens={personagens.filter(personagem => personagem.time === time.nome)}
       />)}
+      <Rodape />
     </div>
   );
 }
