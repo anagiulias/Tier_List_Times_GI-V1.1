@@ -1,9 +1,12 @@
 ![nome](https://github.com/anagiulias/Tier_List_Times_GI-V1.1/assets/115855530/24fa2164-afad-41ce-abbc-62f14fb15048)
 
-# Tier List Times Genshin Impact
+# <h1 align="center"> ⚇ Tier List Times Genshin Impact ⚇ </h1>
+![Badge Finalizado](https://img.shields.io/badge/STATUS-CONCLUÍDO-<BRIGHTGREEN)
+
+## Descrição do Projeto
+O projeto é uma ferramenta para criação de cards, por meio do preenchimento de um formulário. As suas funcionalidades permitem a alteração da cor do fundo, remover e favoritar o card do personagem.
 
 ## Comandos
-
 Comandos para iniciar o projeto:
 - `npm install` ou `npm i`
 - `npm start`
