@@ -13,6 +13,10 @@ Comandos para iniciar o projeto:
 
 **Note: Você precisa ter o NodeJS na sua máquina, e adicionar esses comandos no terminal. Em seguida acesse o servidor local fornecido.**
 
+## Acesso ao Projeto
+Você pode acessar o projeto, por meio do link: </br>
+
+
 ## Tecnologias usadas
 * TypeScript
 * HTML
