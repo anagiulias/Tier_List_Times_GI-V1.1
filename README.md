@@ -17,7 +17,6 @@ Comandos para iniciar o projeto:
 * TypeScript
 * HTML
 * CSS
-* JavaScript
 
 ### Tecnologias extras
 * React
