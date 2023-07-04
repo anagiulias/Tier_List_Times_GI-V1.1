@@ -4,7 +4,7 @@
 ![Badge Finalizado](https://img.shields.io/badge/STATUS-CONCLUÍDO-<BRIGHTGREEN)
 
 ## Descrição do Projeto
-O projeto é uma ferramenta para criação de cards, por meio do preenchimento de um formulário. As suas funcionalidades permitem a alteração da cor do fundo, remover e favoritar o card do personagem.
+O projeto é uma ferramenta para criação de cards dos personagens do Genshin, por meio do preenchimento de um formulário.
 
 ## Comandos
 Comandos para iniciar o projeto:
