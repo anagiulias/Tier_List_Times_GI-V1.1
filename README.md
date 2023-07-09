@@ -1,10 +1,10 @@
-![nome](https://github.com/anagiulias/Tier_List_Times_GI-V1.1/assets/115855530/24fa2164-afad-41ce-abbc-62f14fb15048)
+![nome](https://github.com/anagiulias/Tier_List_Times_GI-V1.1/assets/115855530/11ac9c22-db60-4eab-be37-fa411ffb5e8e)
 
 # <h1 align="center"> ⚇ Tier List Times Genshin Impact ⚇ </h1>
 ![Badge Finalizado](https://img.shields.io/badge/STATUS-CONCLUÍDO-<BRIGHTGREEN)
 
 ## Descrição do Projeto
-O projeto é uma ferramenta para criação de cards, por meio do preenchimento de um formulário. As suas funcionalidades permitem a alteração da cor do fundo, remover e favoritar o card do personagem.
+O projeto é uma ferramenta para criação de cards dos personagens do Genshin, por meio do preenchimento de um formulário.
 
 ## Comandos
 Comandos para iniciar o projeto:
