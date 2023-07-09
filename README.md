@@ -13,9 +13,9 @@ Comandos para iniciar o projeto:
 
 **Note: Você precisa ter o NodeJS na sua máquina, e adicionar esses comandos no terminal. Em seguida acesse o servidor local fornecido.**
 
-## Acesso ao Projeto
-Você pode acessar o projeto, por meio do link: </br>
-
+## Demonstração do Projeto
+Formulário para criação dos cards
+<img src="Captura de tela1.0.png" alt="Imagem do formulário" width="50%">
 
 ## Tecnologias usadas
 * TypeScript
