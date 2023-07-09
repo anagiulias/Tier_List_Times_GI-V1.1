@@ -14,8 +14,11 @@ Comandos para iniciar o projeto:
 **Note: Você precisa ter o NodeJS na sua máquina, e adicionar esses comandos no terminal. Em seguida acesse o servidor local fornecido.**
 
 ## Demonstração do Projeto
-Formulário para criação dos cards
+* Formulário para criação dos cards
 <img src="Captura de tela1.0.png" alt="Imagem do formulário" width="50%">
+
+* Times e Rodapé
+<img src="Captura de tela1.1.png" alt="Imagem do formulário" width="50%">
 
 ## Tecnologias usadas
 * TypeScript
